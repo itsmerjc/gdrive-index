@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "MXJEb3RJZldMbVdKTlVNdXdDd0R5SjlTYWhHdmdmTWF3",
+      "afb6601707ca7f40490db9a4f303150b3ff92331b8dc2531d14954e206f4b3dd47cb80b6fa01cdd7631460d1c88321338d;32f6cdeabb21d5c0ba23ff5a",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -285,7 +285,7 @@ const config: z.input<typeof Schema_Config> = {
     "value": "{{ poweredBy }}"
   },
   {
-    "value": "Powered by [**{{ author }}**](https://t.me/itsmerjc)"
+    "value": "Made with ❤️ by [**{{ author }}**](https://github.com/mbaharip)"
   }
 ],
     /**
