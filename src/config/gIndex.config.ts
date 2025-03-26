@@ -214,7 +214,7 @@ const config: z.input<typeof Schema_Config> = {
 
     /**
      * Toast notification configuration
-     *
+     *  
      * position: Self-explanatory
      * duration: duration before the toast disappear in milliseconds
      */
