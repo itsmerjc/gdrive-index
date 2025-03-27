@@ -47,7 +47,7 @@ const config: z.input<typeof Schema_Config> = {
      * Then, copy the folder id and paste it here
      */
     rootFolder:
-      "9c9cba5670715b0d7dbe86f4446fc8b0f0a04c56c4de5b72cf5273b1b0e626978292521a9e2bf6343c028511ef5d7b61de;1c803fbb3592b7f61dbb5135",
+      "bb59d9885a66099f1faded4295b9d6ddea16e9686f1e2e4e0b00aacfdd42f46f7e61a895c429f65f513ed673cf68de5174;8efb3dcd865e34eef9f69f30",
 
     /**
      * If your rootfolder inside a shared drive, you NEED to set this to true
@@ -172,7 +172,7 @@ const config: z.input<typeof Schema_Config> = {
      *
      * You can set it to undefined if you don't want to use it
      */
-    siteName: "Google Drive",
+    siteName: "GDrive",
     siteNameTemplate: "%s - %t",
     siteDescription: "A simple file browser for Google Drive",
     siteIcon: "/logo.svg",
@@ -184,7 +184,7 @@ const config: z.input<typeof Schema_Config> = {
      * ref: https://nextjs.org/docs/app/api-reference/functions/generate-metadata#robots
      */
     robots: "noindex, nofollow",
-    twitterHandle: "@itsmerjc",
+    twitterHandle: "itsmerjc",
 
     /**
      * Show file extension on the file name
@@ -214,7 +214,7 @@ const config: z.input<typeof Schema_Config> = {
 
     /**
      * Toast notification configuration
-     *  
+     *
      * position: Self-explanatory
      * duration: duration before the toast disappear in milliseconds
      */
@@ -282,10 +282,7 @@ const config: z.input<typeof Schema_Config> = {
      */
     footer: [
   {
-    "value": "{{ poweredBy }}"
-  },
-  {
-    "value": "Google Drive by [**{{ author }}**](https://t.me/itsmerjc)"
+    "value": "Powered by [**{{ author }}**](https://t.me/itsmerjc)"
   }
 ],
     /**
